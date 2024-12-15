@@ -1,0 +1,78 @@
+# macOS
+.DS_Store
+
+# Xcode
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+*.xccheckout
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+*.xcuserstate
+**/.xcode.env.local
+
+# Android
+.gradle/
+local.properties
+*.iml
+.cxx/
+*.hprof
+build/
+.idea/
+*.keystore
+!debug.keystore
+
+# React Native / Metro
+node_modules/
+*.log
+*.lock
+*.jsbundle
+*.hbc
+
+# Environment Files
+.env
+.env.*
+
+# Yarn / npm
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+npm-debug.log
+yarn-error.log
+
+# Temporary files created by Metro
+.metro-health-check*
+
+# Fastlane
+**/fastlane/report.xml
+**/fastlane/Preview.html
+**/fastlane/screenshots
+**/fastlane/test_output
+
+# Jest Coverage
+/coverage/
+
+# Expo
+.expo/
+.expo-shared/
+
+# Bundler
+/vendor/bundle/
+
+# Misc
+.vscode/
+.idea/
+*.tmp
+*.swp
